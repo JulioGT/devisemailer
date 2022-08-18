@@ -31,6 +31,13 @@ gem "jbuilder"
 gem "redis", "~> 4.0"
 gem 'bootstrap', '~> 5.2'
 gem 'jquery-rails'
+#gem 'bootstrap-sass', '~> 3.3.6'
+gem 'font-awesome-sass', '~> 4.5'
+gem 'sass-rails'
+gem 'autoprefixer-rails'
+gem 'bootstrap-sass-extras'
+gem 'devise'
+gem 'simple_form'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -71,3 +78,10 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+group :production do
+  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem "rails_12factor", "~> 0.0.3"
+  gem "pg", "~> 0.18.4"
+end
+
