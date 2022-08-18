@@ -82,6 +82,6 @@ end
 group :production do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "rails_12factor", "~> 0.0.3"
-  gem "pg", "~> 0.18.4"
+  gem "pg", "~> 0.21"
 end
 
